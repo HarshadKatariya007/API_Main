@@ -1,0 +1,26 @@
+#data_1 div
+{
+    width: 300px;
+    padding: 15px;
+    background-color: rgb(218, 218, 218);
+    border-radius: 6px;
+    transition: all 0.5s;
+}
+#data_1 div img
+{
+    width: 100%;
+}
+#data_1 div h6,p
+{
+    padding: 5px;
+}
+#data_1 div:hover
+{
+    box-shadow: 0 0 10px 10px rgba(44, 44, 44, 0.349);
+}
+#data_1 div h5
+{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
